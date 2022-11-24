@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+.header{
+    background-color: red;
+    font-size: 33px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+}
+.hero{
+    min-height: 100vh;
+    width: 100%;
+    background-color:black;
+    background-image: url(https://64.media.tumblr.com/8bd11c1e98dc297c48b0c8189fc8775d/c0aa4eafe5ff50a7-a3/s1280x1920/21d9adf25c60b985f18e52289f09fc2ed1a1c852.gifv);
+    color: white;
+    border: 20px solid green;
+}
+header>h4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap:initial;
+    margin-top: auto;
+    
+
+    
+}
+.Hiscores{
+    color:#001d0e;
+}
+li{
+    float: left;
+    clear: both;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    border: 2px solid red;
+    height: 30px;
+    margin-top: 100px;
+
+}
+a{
+    font-size: 30px;
+    text-align: left;
+}
+.About{
+    color: black;
+}
